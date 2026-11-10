@@ -5,10 +5,8 @@ public class Main {
         ObservadorEstoque vendas = new Vendas();
         ObservadorEstoque auditoria = new Auditoria();
 
-        
         Produto monitor = new Produto("Monitor Ultrawide", 10);
 
-       
         monitor.adicionarObservador(compras);
         monitor.adicionarObservador(vendas);
         monitor.adicionarObservador(auditoria);
